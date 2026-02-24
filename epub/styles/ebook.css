@@ -1,0 +1,213 @@
+/* 연해자평 30일 완성 - EPUB 스타일시트 */
+
+/* ===== 기본 설정 ===== */
+@charset "UTF-8";
+
+body {
+  font-family: "Noto Sans KR", "Malgun Gothic", "맑은 고딕", sans-serif;
+  font-size: 1em;
+  line-height: 1.8;
+  color: #333;
+  margin: 0;
+  padding: 1em;
+}
+
+/* ===== 제목 스타일 ===== */
+h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #1a1a1a;
+  border-bottom: 2px solid #8b4513;
+  padding-bottom: 0.5em;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-top: 1.3em;
+  margin-bottom: 0.8em;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #34495e;
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+}
+
+h4 {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #555;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+/* ===== 본문 스타일 ===== */
+p {
+  margin: 0.8em 0;
+  text-align: justify;
+}
+
+/* 강조 */
+strong, b {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+em, i {
+  font-style: italic;
+}
+
+/* ===== 인용문 스타일 ===== */
+blockquote {
+  margin: 1em 0;
+  padding: 0.8em 1.2em;
+  background-color: #f9f5f0;
+  border-left: 4px solid #8b4513;
+  font-style: normal;
+  color: #555;
+}
+
+blockquote p {
+  margin: 0.3em 0;
+}
+
+/* 참조 링크 스타일 */
+blockquote strong {
+  color: #8b4513;
+}
+
+/* ===== 표 스타일 ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-size: 0.95em;
+}
+
+th {
+  background-color: #8b4513;
+  color: white;
+  font-weight: bold;
+  padding: 0.6em 0.8em;
+  text-align: left;
+  border: 1px solid #6b3410;
+}
+
+td {
+  padding: 0.5em 0.8em;
+  border: 1px solid #ddd;
+  vertical-align: top;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f5f0e8;
+}
+
+/* ===== 목록 스타일 ===== */
+ul, ol {
+  margin: 0.8em 0;
+  padding-left: 1.5em;
+}
+
+li {
+  margin: 0.3em 0;
+  line-height: 1.6;
+}
+
+/* ===== 링크 스타일 ===== */
+a {
+  color: #8b4513;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== 구분선 ===== */
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2em 0;
+}
+
+/* ===== 코드/한자 스타일 ===== */
+code {
+  font-family: "D2Coding", "Consolas", monospace;
+  background-color: #f4f4f4;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+/* 한자 강조 */
+.hanja {
+  font-family: "Noto Serif KR", serif;
+}
+
+/* ===== 특수 클래스 ===== */
+/* 표지 페이지 */
+.cover {
+  text-align: center;
+  page-break-after: always;
+}
+
+.cover h1 {
+  font-size: 2.5em;
+  border: none;
+  margin-top: 3em;
+}
+
+.cover h2 {
+  font-size: 1.5em;
+  color: #666;
+  margin-top: 1em;
+}
+
+/* 챕터 시작 */
+.chapter-start {
+  page-break-before: always;
+}
+
+/* 요약 박스 */
+.summary-box {
+  background-color: #fff8dc;
+  border: 1px solid #daa520;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 5px;
+}
+
+/* 팁 박스 */
+.tip-box {
+  background-color: #e8f5e9;
+  border-left: 4px solid #4caf50;
+  padding: 0.8em 1em;
+  margin: 1em 0;
+}
+
+/* ===== 반응형 ===== */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 0.9em;
+    padding: 0.5em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  table {
+    font-size: 0.85em;
+  }
+}

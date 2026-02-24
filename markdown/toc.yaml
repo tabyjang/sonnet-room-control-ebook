@@ -1,0 +1,60 @@
+toc:
+  - section: "Part A. 입문-전문가 단계형 학습"
+    items:
+      - title: "Chapter 1. 각방제어 시스템 개요"
+        file: "chapter01_각방제어_시스템_개요.md"
+      - title: "Chapter 2. 2선식과 3선식 비교 이해"
+        file: "chapter02_2선식과_3선식_비교.md"
+      - title: "Chapter 3. 핵심 장치 동작 원리"
+        file: "chapter03_핵심_장치_동작_원리.md"
+      - title: "Chapter 4. 지역난방 시스템 연동"
+        file: "chapter04_지역난방_시스템_연동.md"
+
+  - section: "Part B. 실무자용 설치-시운전 매뉴얼"
+    items:
+      - title: "Chapter 5. 설계 및 시공 전 준비"
+        file: "chapter05_설계_및_시공_전_준비.md"
+      - title: "Chapter 6. 배선/결선 표준"
+        file: "chapter06_배선_결선_표준.md"
+      - title: "Chapter 7. 설치 절차 SOP"
+        file: "chapter07_설치_절차_SOP.md"
+      - title: "Chapter 8. 시운전 및 인수인계"
+        file: "chapter08_시운전_및_인수인계.md"
+
+  - section: "Part C. 문제해결 중심 트러블슈팅/케이스북"
+    items:
+      - title: "Chapter 9. 증상 기반 트러블슈팅"
+        file: "chapter09_증상_기반_트러블슈팅.md"
+      - title: "Chapter 10. 원인 매트릭스와 진단 절차"
+        file: "chapter10_원인_매트릭스와_진단_절차.md"
+      - title: "Chapter 11. 현장 케이스 스터디"
+        file: "chapter11_현장_케이스_스터디.md"
+      - title: "Chapter 12. 예방점검과 유지관리"
+        file: "chapter12_예방점검과_유지관리.md"
+
+  - section: "Part D. 가정용 시공 실전 가이드"
+    items:
+      - title: "Chapter 13. 가정용 시공 실전 가이드"
+        file: "chapter13_가정용_시공_실전_가이드.md"
+      - title: "Chapter 14. 가정용 초보자 완전 정복"
+        file: "chapter14_가정용_초보자_완전정복.md"
+
+  - section: "부록"
+    items:
+      - title: "부록 A. 설치/시운전 체크리스트 양식"
+        file: "appendix_A_설치_시운전_체크리스트.md"
+      - title: "부록 B. 장애 접수/조치 리포트 양식"
+        file: "appendix_B_장애_접수_조치_리포트.md"
+      - title: "부록 C. 용어사전"
+        file: "appendix_C_용어사전.md"
+      - title: "부록 D. 자주 묻는 질문(FAQ)"
+        file: "appendix_D_FAQ.md"
+      - title: "부록 E. 업체 선정 체크리스트 & 견적 비교표"
+        file: "appendix_E_업체선정_체크리스트.md"
+      - title: "부록 F. 실전 케이스별 장비 리스트 & 배선도"
+        file: "appendix_F_실전_케이스_장비리스트_배선도.md"
+
+statistics:
+  total_chapters: 20
+  parts: 4
+  appendices: 6

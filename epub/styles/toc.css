@@ -1,0 +1,106 @@
+/* 연해자평 30일 완성 - 목차 스타일시트 */
+
+@charset "UTF-8";
+
+/* ===== 목차 컨테이너 ===== */
+nav#toc {
+  font-family: "Noto Sans KR", "Malgun Gothic", sans-serif;
+  padding: 1em;
+}
+
+nav#toc h1 {
+  font-size: 1.5em;
+  color: #8b4513;
+  border-bottom: 2px solid #8b4513;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+
+/* ===== 목차 목록 ===== */
+nav#toc ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav#toc li {
+  margin: 0.3em 0;
+  line-height: 1.6;
+}
+
+nav#toc a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 0.3em 0;
+}
+
+nav#toc a:hover {
+  color: #8b4513;
+  background-color: #f9f5f0;
+}
+
+/* ===== 계층별 스타일 ===== */
+/* 1단계: 부/부록 */
+nav#toc > ol > li {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-top: 1em;
+  border-top: 1px solid #eee;
+  padding-top: 0.5em;
+}
+
+nav#toc > ol > li:first-child {
+  border-top: none;
+  margin-top: 0;
+}
+
+/* 2단계: 강의 */
+nav#toc > ol > li > ol {
+  padding-left: 1.5em;
+  margin-top: 0.3em;
+}
+
+nav#toc > ol > li > ol > li {
+  font-weight: normal;
+  font-size: 1em;
+}
+
+/* 3단계: 세부 항목 */
+nav#toc > ol > li > ol > li > ol {
+  padding-left: 1.5em;
+}
+
+nav#toc > ol > li > ol > li > ol > li {
+  font-size: 0.95em;
+  color: #555;
+}
+
+/* ===== 특수 항목 ===== */
+/* 서문 섹션 */
+.toc-preface {
+  color: #666;
+  font-style: italic;
+}
+
+/* 부록 섹션 */
+.toc-appendix {
+  background-color: #f9f9f9;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  border-radius: 3px;
+}
+
+/* 현재 위치 표시 */
+.toc-current {
+  color: #8b4513;
+  font-weight: bold;
+  background-color: #fff8dc;
+}
+
+/* ===== 페이지 번호 (PDF용) ===== */
+.toc-page {
+  float: right;
+  color: #999;
+  font-size: 0.9em;
+}

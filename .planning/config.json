@@ -1,0 +1,10 @@
+{
+  "workflowMode": "interactive",
+  "projectName": "사주명리학 전자책 3권",
+  "created": "2026-01-16",
+  "gates": {
+    "phaseStart": true,
+    "majorDecisions": true,
+    "contentReview": true
+  }
+}

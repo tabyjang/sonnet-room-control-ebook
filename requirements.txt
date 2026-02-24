@@ -1,0 +1,7 @@
+# 전자책 생성 의존성
+ebooklib>=0.18
+markdown>=3.7
+pyyaml>=6.0
+beautifulsoup4>=4.12
+markdownify>=0.11
+fpdf2>=2.7
